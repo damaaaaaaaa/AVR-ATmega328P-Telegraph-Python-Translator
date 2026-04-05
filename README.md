@@ -1,6 +1,6 @@
-# AVR ATmega328P Telegraph & Python Translator
+# arduino TELEGRAFO e traduttore
 
-Questo progetto trasforma una board basata su ATmega328P in un telegrafo programmato in C (senza librerie standard). Sfrutta Timer e Interrupt hardware per misurare la durata della pressione di un pulsante, invia i segnali Morse via Seriale e utilizza uno script Python per tradurre il file di log in testo leggibile.
+Questo progetto trasforma arduino in un telegrafo programmato in C (senza librerie standard). Sfrutta Timer e Interrupt hardware per misurare la durata della pressione di un pulsante, invia i segnali Morse via Seriale e utilizza uno script Python per tradurre il file di log in testo leggibile.
 
 ## Hardware
 * **Pin 2:** Pulsante (Input)
